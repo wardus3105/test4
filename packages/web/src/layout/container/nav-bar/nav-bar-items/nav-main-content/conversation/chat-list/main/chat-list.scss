@@ -1,0 +1,74 @@
+.chatlist-container{
+  position: absolute;
+  top: var(--height-header-conversationdetail);
+  bottom: 60px;
+  width: 100%;
+  padding: 12px 10%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: column nowrap; 
+
+  &-hassearch{
+    top: 120px;
+  }
+
+  &-hasrespondedmess{
+    bottom: 120px;
+  }
+
+  .chatlist-loader{
+    margin: auto;
+  }
+
+  .chatlist-main {
+    display: flex;
+    flex-direction:column-reverse;
+    margin-top: auto !important;
+
+    .loader-container{
+      margin: 16px auto;
+    }
+  }
+}
+
+// .chat-time{
+//   float: right;
+// }
+
+.chatlist-usersviewed{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatlist-userhasread{
+  width: 20px;
+  height: 20px;
+  margin-left: 0.3rem;
+}
+
+.chatlist-moreusershaveread{
+  background-color: var(--color-main2);
+  border-radius: 50%;
+  font-size: 10px;
+  line-height: var(--lineheight-default3);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-background);
+}
+
+.maincontext{
+  // width: 100% !important;
+}
+
+
+/* HEIGHT */
+
+@media only screen and (max-height: 260px) {
+  .chatlist-container{
+    top: 0;
+  }
+}

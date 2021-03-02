@@ -1,0 +1,31 @@
+.uploadimage-container{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 999;
+
+    
+    .uploadimage-icon-delete-panel{
+        border-radius: 50%; 
+        background-color: white;
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        right: -24%;
+        top: -12%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+        
+        &:hover{
+            background-color: rgb(224, 216, 216);
+        }
+
+        img{
+            object-fit: cover;
+        }
+    }
+}

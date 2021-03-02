@@ -1,0 +1,27 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "hieult <mobile-backend>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.hyperlogy.com/esoft/worktalk/web-mobile-desktop.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}

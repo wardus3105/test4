@@ -1,0 +1,8 @@
+.messagefound-container{
+    display: flex;
+}
+
+.messagefound-right mark{
+    background-color: var(--color-main2);
+    color:var(--color-background);
+}

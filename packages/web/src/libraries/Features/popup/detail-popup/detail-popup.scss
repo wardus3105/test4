@@ -1,0 +1,44 @@
+@import "../../../Styles/utils/variables.scss";
+
+.detailpopup-detail{
+    list-style: none;
+
+    li{
+        display: flex;
+        align-items: center;
+        padding: 0.6rem 3rem 0.6rem 0.8rem;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $state-bg-1;
+        }
+
+        span{
+            margin-left: 0.5rem;
+            color: $neutral-midnight;
+        }
+        
+    }
+}
+
+.detailpopup-header{
+    display: flex;
+    border-bottom: 1px solid var(--color-main-border);
+    padding: 0.4rem 0.6rem;
+    align-items: center;
+  
+    .detailpopup-header-right{
+        margin-left: 0.5rem;
+
+        p{
+            font-weight: var(--fontweight-default2);
+            font-size: var(--fontsize-default2);
+            line-height: var(--lineheight-default2);
+            color:$neutral-midnight;
+        }
+
+        span{
+            color: $neutral-fiord;
+        }
+    }
+}

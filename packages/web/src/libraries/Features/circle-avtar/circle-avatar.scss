@@ -1,0 +1,64 @@
+.circleavatar-container{
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    &.isOnline:after {
+        content: "";
+        position:absolute;
+        border-radius:50%;
+        background-color:#33CC5E;
+        border: 2px solid #FFFFFF;
+    }
+
+    &.img-40:after {
+        width:10px;
+        height:10px;
+        bottom:-2px;
+        right:-2px;
+   
+    } 
+
+    &.img-48:after {
+        content: "";
+        width:8.5px;
+        height:8.5px;
+        bottom:0;
+        right:0;
+   
+    }
+ 
+    .circleavatar-noti{
+        position: absolute;
+        bottom: 3%;
+        right: 1%;
+    }
+
+    .circleavatar-remove{
+        position: absolute;
+        top: 2%;
+        right: -2%;
+        background-color: var(--color-background);
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    }
+
+    img{
+        width: 12px !important;
+        height: 12px !important;
+    }
+}
+
+.div-subheading-semibold{
+    width: 100%;
+    text-align: center;
+}
+
+.div-subtitle-hint{
+    width: 100%;
+    text-align: center;
+}

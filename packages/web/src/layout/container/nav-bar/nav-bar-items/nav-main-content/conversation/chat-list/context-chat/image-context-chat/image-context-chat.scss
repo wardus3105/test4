@@ -1,0 +1,21 @@
+.imagechat-container{
+    display: flex;
+    flex-wrap: wrap;
+       
+    &.imagechat-current{
+        flex-direction: row-reverse;
+    }
+
+    img{
+        border-radius: 8px;
+        width: 120px;
+        height: 120px;
+        margin: 8px 0 0 8px;
+        object-fit: cover;
+        background: rgb(215, 228, 226);
+    }
+}
+
+
+
+/* ------------------------------------------------ RESPONSIVE ----------------------- */

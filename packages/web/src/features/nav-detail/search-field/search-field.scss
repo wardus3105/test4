@@ -1,0 +1,11 @@
+
+
+.searchfield-container{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 105px);
+    background-color: #fff;
+    top: 105px;
+    z-index: 999;
+    overflow: auto;
+}
